@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a;
+    float b;
+    char c;
+    bool d;
+    cout<<"size of int data type:"<<sizeof(a)<<endl<<"size of float data type :"<<sizeof(b)<<endl<<"size of boolean data type :"<<sizeof(d)<<endl<<"size of character data type :"<<sizeof(c)<<endl;
+    return 0;
+}
