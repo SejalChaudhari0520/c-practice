@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+//pascal triangle
+int fact(int n)
+{
+    int fact=1;
+    for(int i=1;i<=n;i++)
+    {
+        fact=fact*i;
+    }
+    return fact;
+}
+int comb(int n, int r)
+{
+    int ans;
+    ans=fact(n)/(fact(r)*fact(n-r));
+    return ans;
+}
+ int main()
+ {
+     int row;
+     cin>>row;
+     for(int i=0;i<row;i++)
+     {
+         for(int j=0;j<=i;j++)
+         {
+            cout<<comb(i,j)<<" ";
+         }
+         cout<<endl;
+     }
+     return 0;
+ }
