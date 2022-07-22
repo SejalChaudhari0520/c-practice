@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+//factorial of n
+int fact(int n)
+{
+    int fact=1;
+    for(int i=1;i<=n;i++)
+    {
+        fact=fact*i;
+        
+    }
+    cout<<"factorial of "<<n<<" is: "<<fact;
+    return 0;
+}
+int main()
+{
+    int num;
+    cin>>num;
+    fact(num);
+    return 0;
+}
