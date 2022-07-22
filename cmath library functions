@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+#include<cmath>
+
+int main()
+{
+    cout<<"checking cmath library";
+    cout<<hypot(4,3)<<endl;
+    cout<<ceil(4.12343)<<endl;
+    cout<<sqrt(7543)<<endl;
+    cout<<sin(0)<<" "<<sin(24)<<endl;
+    cout<<cos(100)<<" "<<endl;
+    cout<<log(1);
+    return 0;
+}
